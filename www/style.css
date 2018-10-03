@@ -1,0 +1,92 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* Import Normalize from the Cloudflare cdn */
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css";
+ 
+/* Import Open Sans - a font family from Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i');
+
+/* Import Changa one - a font family from Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Changa+One:400,400i');
+
+/* Import Roboto - a font family from Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
+
+/* Import Just another hand - a font family from Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
+
+/* Import Roboto mono - a font family from Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,500i,700');
+
+/* Import Poppins - a font family from Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,700');
+/* Basic */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.2;
+  color: rgb(27, 27, 27);
+  background: url(lines.jpg) no-repeat top right;
+  
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center; /* Ändra i media q till flex-start */
+  /* align-items: center; */
+  height: 0;
+}
+
+header h1 {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  /* transform: rotate(-90deg); */
+  /* display: inline-block; */
+  /* height: 0vw; */
+  text-orientation: mixed;
+  writing-mode: vertical-lr;
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
+header h2 {
+  font-size: 75px;
+  /* display: table-caption; */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  width: 35vw;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header abbr[title] {
+  border-bottom: 8px dotted rgb(0, 150, 150);
+  text-decoration: none;
+}
+
+.summary {
+  margin-top: 490px;
+  font-family: 'Poppins', sans-serif;
+  max-width: 410px;
+  font-size: 28px;
+  margin-left: 30px;
+  text-align: right;
+  font-weight: 200;
+}
+
+.preamble {
+  margin-top: 100px;
+}
